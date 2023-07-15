@@ -26,6 +26,8 @@ void pollTwo() {
     // C
     word = word + letterStr;
 
+    // al three are valid: hi!
+
     cout << word << endl;
 }
 
@@ -54,17 +56,19 @@ void pollTwo() {
 //    }
 //}
 
-// What happens to hiThere?
-//void pollFive() {
-//    string hiThere = "hi" + "there";
-//    cout << hiThere << endl;
-//}
+ What happens to hiThere?
+void pollFive() {
+    string hiThere = "hi" + "there";
+    // string literal is regarded as C string by default
+    cout << hiThere << endl;
+}
 
-// What happens to hiThere?
-//void pollSix() {
-//    string hiThere = "hi" + '?';
-//    cout << hiThere << endl;
-//}
+ What happens to hiThere?
+void pollSix() {
+    string hiThere = "hi" + '?';
+    // point to random garbage
+    cout << hiThere << endl;
+}
 
 void loopingOverStrFor(string word) {
     /* TODO: FILL IN */
