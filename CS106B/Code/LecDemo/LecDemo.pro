@@ -4,6 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        02_String.cpp \
         03_String.cpp \
+        04_Vector.cpp \
+        05_Ordered.cpp \
         main.cpp
